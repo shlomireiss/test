@@ -10,7 +10,17 @@
   <body>
     <div id="app"></div>
     
+<script>    
+    import "./styles.css";
 
+document.getElementById("app").innerHTML = `
+<h1>כותרת בעברית</h1>
+<div>
+ שלום רב לכם 
+</div>
+`;
+    </script>
+    
     <p id="demo">JavaScript can change HTML content.</p>
     <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 <script src="index.js"></script>
