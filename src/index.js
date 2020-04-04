@@ -1,8 +1,8 @@
 import "./styles.css";
 
 document.getElementById("app").innerHTML = `
-<h1>כותרת בעברית</h1>
+<h1>Title</h1>
 <div>
- שלום רב לכם 
+HEllo
 </div>
 `;
